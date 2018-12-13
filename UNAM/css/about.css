@@ -1,0 +1,138 @@
+.about-wrapper .bkg-wrapper {
+    background-image: url(https://via.placeholder.com/1440x388/d0d0d0/);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-wrapper .bkg-wrapper .container-fluid {
+    display: flex;
+    position: relative;
+    height: 340px;
+    padding-bottom: 40px;
+}
+
+.bkg-wrapper h1 {
+    font-size: 32px;
+    font-weight: 300;
+    color: #ffffff;
+    align-self: flex-end;
+}
+
+
+.about-wrapper .mision-vision-wrapper {
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.about-wrapper .mision-vision-wrapper .title {
+    font-size: 33px;
+    font-weight: bold;
+    letter-spacing: 12.3px;
+    color: #557bb8;
+    margin-bottom: 38px;
+    margin-top: 32px;
+}
+
+.about-wrapper .mision-vision-wrapper .description {
+    font-size: 25px;
+    font-weight: 300;
+    color: #232323;
+    margin-bottom: 60px;
+}
+
+
+.about-wrapper .collections-wrapper {
+    background-color: #f5f5f5;
+}
+
+.about-wrapper .collections-wrapper .title {
+    font-size: 33px;
+    font-weight: bold;
+    letter-spacing: 12.3px;
+    color: #557bb8;
+    margin-bottom: 38px;
+    margin-top: 32px;
+}
+
+.about-wrapper .collections-wrapper .description {
+    font-size: 26px;
+    color: #4c4c4c;
+    line-height: 1.65;
+    margin-bottom: 60px;
+}
+
+.about-wrapper .collections-wrapper .image-wrapper {
+    display: flex;
+}
+
+.about-wrapper .collections-wrapper .image {
+    align-self: center;
+    margin: auto;
+    max-width: 100%;
+}
+
+
+.about-wrapper .list-option-wrapper {
+    padding: 15px;
+    margin: 150x;
+    background-color: white;
+}
+
+.about-wrapper .list-option-wrapper .row:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+.about-wrapper .list-option-wrapper .item {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 3.25;
+    color: #4a4a4a;
+}
+
+
+.about-wrapper .map-wrapper {
+    padding-top: 0px;
+    padding-bottom: 60px;
+}
+
+.about-wrapper .map-wrapper .title {
+    font-size: 33px;
+    font-weight: bold;
+    letter-spacing: 12.3px;
+    color: #557bb8;
+    margin-bottom: 38px;
+    margin-top: 32px;
+}
+
+.about-wrapper .map-wrapper .image-wrapper {
+    display: flex;
+}
+
+.about-wrapper .map-wrapper .image {
+    align-self: center;
+    margin: 0px auto 20px auto;
+    max-width: 100%;
+}
+
+.about-wrapper .map-wrapper .item {
+    display: flex;
+}
+
+.about-wrapper .map-wrapper .item .item-icon {
+    flex-grow: 0;
+    max-height: 56px;
+    align-self: center;
+}
+
+.about-wrapper .map-wrapper .item .item-content-wrapper {
+    flex-grow: 1;
+}
+
+.about-wrapper .map-wrapper .item .item-content {
+    font-size: 25px;
+    font-weight: 300;
+    color: #232323;
+    margin: 0px 10px 0px 10px;
+}

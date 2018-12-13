@@ -1,0 +1,97 @@
+.interesting-sites .bkg-wrapper {
+    background-image: url(https://via.placeholder.com/1440x388/d0d0d0/);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.interesting-sites .bkg-wrapper .container-fluid {
+    display: flex;
+    position: relative;
+    height: 340px;
+    padding-bottom: 40px;
+}
+
+.bkg-wrapper h1 {
+    font-size: 32px;
+    font-weight: 300;
+    color: #ffffff;
+    align-self: center;
+    text-align: right;
+    right: 15px;
+    margin-left: 100px;
+}
+
+
+.interesting-sites .base-content-wrapper {
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.interesting-sites .base-content-wrapper .title {
+    font-size: 33px;
+    font-weight: bold;
+    letter-spacing: 12.3px;
+    color: #557bb8;
+    margin-bottom: 38px;
+    margin-top: 32px;
+    text-align: center;
+}
+
+.interesting-sites .base-content-wrapper .description {
+    font-size: 25px;
+    font-weight: 300;
+    color: #232323;
+    margin-bottom: 60px;
+    text-align: justify;
+}
+
+
+.interesting-sites  .sites-wrapper {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.interesting-sites  .sites-wrapper .item {
+    width: 175px;
+    margin: auto;
+}
+
+.interesting-sites  .sites-wrapper .item .link {
+    text-decoration: none;
+}
+
+.interesting-sites  .sites-wrapper .image-wrapper {
+    position: relative;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: #e5e5e5;
+    width: 185px;
+    height: 165px;
+    display: flex;
+}
+
+.interesting-sites  .sites-wrapper .image-wrapper .logo {
+    margin: auto;
+    max-width: 100%;
+    align-self: center;
+}
+
+.interesting-sites  .sites-wrapper .item .title {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #4a4a4a;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.interesting-sites  .sites-wrapper .item:hover .title {
+    color: #204775;
+}
+
+
+@media (max-width: 480px) {
+
+}

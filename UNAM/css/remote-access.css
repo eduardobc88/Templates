@@ -1,0 +1,79 @@
+.remote-access-wrapper .bkg-wrapper {
+    background-image: url(https://via.placeholder.com/1440x388/d0d0d0/);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.remote-access-wrapper .bkg-wrapper {
+    display: flex;
+    position: relative;
+    height: 340px;
+    padding-bottom: 40px;
+}
+
+
+.remote-access-wrapper .content-wrapper {
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.remote-access-wrapper .content-wrapper .title {
+    font-size: 33px;
+    font-weight: bold;
+    letter-spacing: 12.3px;
+    color: #557bb8;
+    margin-bottom: 38px;
+    margin-top: 32px;
+    text-align: center;
+}
+
+.remote-access-wrapper .content-wrapper .description {
+    font-size: 25px;
+    font-weight: 300;
+    color: #232323;
+    margin-bottom: 60px;
+    text-align: justify;
+}
+
+
+
+.remote-access-wrapper .search-wrapper .form-wrapper {
+    display: flex;
+    max-width: 600px;
+    margin: auto;
+}
+
+.remote-access-wrapper .search-wrapper .form-wrapper .input {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    background-color: white;
+    padding: 10px 40px 10px 40px;
+    font-size: 17px;
+    font-weight: 800;
+    letter-spacing: -0.6px;
+    color: #232323;
+    outline: none;
+    border: none;
+    margin: auto auto 10px auto;
+    display: flex;
+    flex-grow: 1;
+}
+
+.remote-access-wrapper .search-wrapper .form-wrapper .submit {
+    background-color: #061931;
+    height: 48px;
+    cursor: pointer;
+    padding-left: 25px;
+    padding-right: 25px;
+    outline: none;
+    display: flex;
+    margin: auto auto 10px auto;
+    flex-grow: 0;
+    margin-left: 10px;
+}
+
+.remote-access-wrapper .search-wrapper .form-wrapper .submit .icon {
+    width: 30px;
+}
