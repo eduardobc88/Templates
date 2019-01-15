@@ -64,6 +64,10 @@
     margin-bottom: 30px;
 }
 
+.data-base-wrapper  .sites-wrapper .image-wrapper:hover .logo {
+    filter: grayscale(100%);
+}
+
 .data-base-wrapper  .sites-wrapper .image-wrapper .logo {
     margin: auto;
     max-width: 100%;

@@ -65,3 +65,7 @@
     text-decoration: none;
     display: flex;
 }
+
+.archive-news-wrapper .item .post-url:hover {
+    color: #666;
+}

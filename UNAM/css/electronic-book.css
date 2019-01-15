@@ -84,6 +84,11 @@
     align-self: center;
 }
 
+.electronic-book  .sites-wrapper .image-wrapper:hover .logo {
+    filter: grayscale(100%);
+}
+
+
 @media (max-width: 480px) {
     .electronic-book  .sites-wrapper .item {
         width: 300px;
