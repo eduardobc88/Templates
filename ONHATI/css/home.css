@@ -1,0 +1,355 @@
+#home-slides {
+    max-height: 400px;
+}
+
+#home-slides .container-fluid {
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    padding: 0px;
+}
+
+#home-slides .container-fluid img {
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin: auto;
+}
+
+#home-slides .container-fluid .title {
+    bottom: 0;
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    height: 200px;
+    left: 0;
+    line-height: 40px;
+    margin: auto;
+    max-width: 1280px;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    top: 0;
+    z-index: 1;
+    padding-right: 10px;
+    padding-left: 20%;
+}
+
+.slick-initialized .slick-slide {
+    position: relative;
+}
+
+#home-slides .slick-arrow {
+    width: 40px;
+    z-index: 99;
+    cursor: pointer;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+}
+#home-slides .slick-arrow-prev {
+    left: 10px;
+}
+#home-slides .slick-arrow-next {
+    right: 10px;
+}
+
+
+
+
+#our-services {
+    padding: 50px 10px 50px 10px;
+}
+
+#our-services h2 {
+    font-weight: 500;
+    text-align: center;
+}
+
+#items-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#items-wrapper .service {
+    flex-grow: 1;
+    width: 260px;
+    max-width: 260px;
+    border: 1px solid white;
+    margin: 10px;
+    text-decoration: none;
+    background-color: #efefef;
+    transition-duration: 100ms;
+}
+
+#items-wrapper .service:hover {
+    border: 1px solid black;
+    background-color: #fff;
+}
+
+#items-wrapper .header {
+    position: relative;
+}
+
+#items-wrapper .header .img {
+    width: 100%;
+}
+
+#items-wrapper .body {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #666;
+    text-align: center;
+    line-height: 20px;
+}
+
+#our-services .more-button {
+    margin-top: 30px;
+}
+
+
+
+
+#our-clients {
+    padding: 50px 10px 50px 10px;
+}
+
+#our-clients h2 {
+    font-weight: 500;
+    text-align: center;
+}
+
+#our-clients .items-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#our-clients .item {
+    margin: 10px;
+}
+
+
+
+
+
+#blog {
+    padding: 50px 10px 50px 10px;
+}
+
+#blog h2 {
+    font-weight: 500;
+    text-align: center;
+}
+
+#blog .items-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#blog .item {
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+    width: 250px;
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#blog .item .img-cover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: -100%;
+    margin: auto;
+    z-index: 0;
+    height: 100%;
+}
+
+#blog .item h3 {
+    color: white;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#blog .item .content {
+    color: white;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#blog .align-bottom {
+    z-index: 2;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+#blog .item .item-bkg {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    transition-duration: 100ms;
+}
+
+#blog .item:hover .item-bkg {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+#blog .more-button {
+    margin-top: 30px;
+}
+
+
+
+
+
+
+#banner {
+    display: flex;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+#banner .left {
+    position: absolute;
+    align-self: center;
+    left: 40px;
+}
+
+#banner .right {
+    background-color: #444;
+    padding: 50px 40px 50px 400px;
+}
+
+#banner h1 {
+    font-weight: 500;
+    color: white;
+}
+
+#banner .content {
+    color: white;
+}
+
+
+
+
+
+#banner-inverted {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+#banner-inverted .left {
+    background-color: #444;
+    padding: 50px 400px 50px 40px;
+}
+
+#banner-inverted .right {
+    position: absolute;
+    align-self: center;
+    right: 40px;
+}
+
+#banner-inverted h2 {
+    font-weight: 500;
+    color: white;
+}
+
+#banner-inverted .content {
+    color: white;
+}
+
+#banner-inverted .call-to-action {
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-transform: uppercase;
+    transition-duration: 100ms;
+    width: 200px;
+}
+#banner-inverted .call-to-action:hover {
+    border: 1px solid white;
+    background-color: #444;
+    color: white;
+}
+
+
+
+
+
+
+
+/* start - responsive */
+
+@media all and (max-width: 1000px) {
+    #home-slides .container-fluid img {
+        width: calc(100% + 600px);
+        bottom: 0;
+        position: absolute;
+        top: 0px;
+        left: -100%;
+        right: -100%;
+        margin: auto;
+    }
+}
+
+@media all and (max-width: 1280px) {
+    #home-slides .container-fluid .title {
+        padding-right: 60px;
+    }
+}
+
+@media all and (max-width: 720px) {
+    #banner .left, #banner-inverted .right {
+        display: none;
+    }
+
+    #banner .right, #banner-inverted .left {
+        padding: 50px 40px 50px 40px;
+    }
+
+    #home-slides .container-fluid .title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+
+/* end - responsive */
