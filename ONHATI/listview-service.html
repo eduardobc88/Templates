@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>ONHATI</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="ONHATI">
+        <meta name="author" content="ONHATI">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+        <link rel="stylesheet" href="css/global.css?v=1.0">
+        <!-- local css -->
+        <link rel="stylesheet" href="css/listview-service.css?v=1.0">
+    </head>
+    <body onload="onWindowLoad()">
+        <div class="global-wrapper" onresize="onresize()">
+            <div id="header-wrapper">
+                <div class="container desktop">
+                    <div class="col">
+                        <a class="link" id="header-logo" href="#">
+                            <img src="assets/onhati-logo.png">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="link" href="#">
+                            INICIO
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="link" href="#">
+                            QUIENES SOMOS
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="link" href="#">
+                            SERVICIOS
+                        </a>
+                        </div>
+                    <div class="col">
+                        <a class="link" href="#">
+                            BLOG
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="link" href="#">
+                            CONTACTO
+                        </a>
+                    </div>
+                </div>
+                <div class="container mobile">
+                    <div class="col">
+                        <a class="link" id="header-logo" href="#">
+                            <img src="assets/inhati-logo.png">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <div class="link" id="menu-button" onClick="toggleMenuMobile()">
+                            <img src="assets/menu-icon.png">
+                        </div>
+                    </div>
+                </div>
+                <div id="menu-mobile">
+                    <a class="link" href="#">
+                        INICIO
+                    </a>
+                    <a class="link" href="#">
+                        QUIENES SOMOS
+                    </a>
+                    <a class="link" href="#">
+                        SERVICIOS
+                    </a>
+                    <a class="link" href="#">
+                        BLOG
+                    </a>
+                    <a class="link" href="#">
+                        CONTACTO
+                    </a>
+                </div>
+            </div>
+            <div id="page-head">
+                <div class="container-fluid">
+                    <img id="page-thumbnail" src="https://via.placeholder.com/1000x400/888/">
+                    <h1 id="page-title">
+                        Nuestros Servicios
+                    </h1>
+                </div>
+            </div>
+            <div class="container-normal no-padding">
+                <div id="over-wrapper" class="no-padding">
+                    <div id="our-services">
+                        <div id="items-wrapper">
+                            <a class="service" href="#">
+                                <div class="header">
+                                    <img class="img" src="https://via.placeholder.com/400x250/777/">
+                                </div>
+                                <div class="body">
+                                    Guardias de seguridad privada
+                                </div>
+                            </a>
+                            <a class="service" href="#">
+                                <div class="header">
+                                    <img class="img" src="https://via.placeholder.com/400x250/777/">
+                                </div>
+                                <div class="body">
+                                    Guardias de seguridad privada
+                                </div>
+                            </a>
+                            <a class="service" href="#">
+                                <div class="header">
+                                    <img class="img" src="https://via.placeholder.com/400x250/777/">
+                                </div>
+                                <div class="body">
+                                    Guardias de seguridad privada
+                                </div>
+                            </a>
+                            <a class="service" href="#">
+                                <div class="header">
+                                    <img class="img" src="https://via.placeholder.com/400x250/777/">
+                                </div>
+                                <div class="body">
+                                    Guardias de seguridad privada
+                                </div>
+                            </a>
+                            <a class="service" href="#">
+                                <div class="header">
+                                    <img class="img" src="https://via.placeholder.com/400x250/777/">
+                                </div>
+                                <div class="body">
+                                    Guardias de seguridad privada
+                                </div>
+                            </a>
+                            <a class="service" href="#">
+                                <div class="header">
+                                    <img class="img" src="https://via.placeholder.com/400x250/777/">
+                                </div>
+                                <div class="body">
+                                    Guardias de seguridad privada
+                                </div>
+                            </a>
+                            <a class="service" href="#">
+                                <div class="header">
+                                    <img class="img" src="https://via.placeholder.com/400x250/777/">
+                                </div>
+                                <div class="body">
+                                    Guardias de seguridad privada
+                                </div>
+                            </a>
+                            <a class="service" href="#">
+                                <div class="header">
+                                    <img class="img" src="https://via.placeholder.com/400x250/777/">
+                                </div>
+                                <div class="body">
+                                    Guardias de seguridad privada
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="pagination">
+                        <a class="item" href="#"><</a>
+                        <a class="item current" href="#">1</a>
+                        <a class="item" href="#">2</a>
+                        <a class="item" href="#">3</a>
+                        <a class="item" href="#">4</a>
+                        <a class="item" href="#">></a>
+                    </div>
+                </div>
+            </div>
+            <div id="footer-wrapper">
+                <div class="container">
+                    <div class="left section">
+                        <a href="#" class="link">INICIO</a>
+                        <a href="#" class="link">SERVICIOS</a>
+                        <a href="#" class="link">BLOG</a>
+                        <a href="#" class="link">CONTACTO</a>
+                    </div>
+                    <div class="mid section">
+                        <a href="#" class="link logo">
+                            <img src="assets/onhati-logo.png">
+                        </a>
+                    </div>
+                    <div class="right section">
+                        <a href="#" class="link">MARCO LEGAL</a>
+                        <a href="#" class="link">TERMINOS Y CONDICIONES</a>
+                        <a href="#" class="link">AVISO DE PRIVACIDAD</a>
+                    </div>
+                </div>
+                <div id="call-us" class="container">
+                    <h4>COMINÍCATE</h4>
+                    <a href="tel:4431049977" class="phone">443-1049977</a>
+                </div>
+            </div>
+        </div>
+        <script src="js/global.js"></script>
+    </body>
+</html>

@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>ONHATI</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="ONHATI">
+        <meta name="author" content="ONHATI">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+        <link rel="stylesheet" href="css/global.css?v=1.0">
+        <!-- local css -->
+        <link rel="stylesheet" href="css/detail-service.css?v=1.0">
+    </head>
+    <body onload="onWindowLoad()">
+        <div class="global-wrapper" onresize="onresize()">
+            <div id="header-wrapper">
+                <div class="container desktop">
+                    <div class="col">
+                        <a class="link" id="header-logo" href="#">
+                            <img src="assets/onhati-logo.png">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="link" href="#">
+                            INICIO
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="link" href="#">
+                            QUIENES SOMOS
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="link" href="#">
+                            SERVICIOS
+                        </a>
+                        </div>
+                    <div class="col">
+                        <a class="link" href="#">
+                            BLOG
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="link" href="#">
+                            CONTACTO
+                        </a>
+                    </div>
+                </div>
+                <div class="container mobile">
+                    <div class="col">
+                        <a class="link" id="header-logo" href="#">
+                            <img src="assets/inhati-logo.png">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <div class="link" id="menu-button" onClick="toggleMenuMobile()">
+                            <img src="assets/menu-icon.png">
+                        </div>
+                    </div>
+                </div>
+                <div id="menu-mobile">
+                    <a class="link" href="#">
+                        INICIO
+                    </a>
+                    <a class="link" href="#">
+                        QUIENES SOMOS
+                    </a>
+                    <a class="link" href="#">
+                        SERVICIOS
+                    </a>
+                    <a class="link" href="#">
+                        BLOG
+                    </a>
+                    <a class="link" href="#">
+                        CONTACTO
+                    </a>
+                </div>
+            </div>
+            <div id="page-head">
+                <div class="container-fluid">
+                    <img id="page-thumbnail" src="https://via.placeholder.com/1000x400/888/">
+                    <h1 id="page-title">
+                        DETAIL SERVICE
+                    </h1>
+                </div>
+            </div>
+            <div class="container-normal no-padding">
+                <div id="over-wrapper" class="no-padding">
+                    <div id="page-content">
+                        <div id="share">
+                            <div onClick="FBShare(this)" class="button share-fb" attr-permalink="http://www.reactive-web.com/blog/introduccion-a-docker/"></div>
+                            <div onClick="TwShare(this)" class="button share-tw" attr-permalink="http://www.reactive-web.com/blog/introduccion-a-docker/"></div>
+                            <div onClick="WAShare(this)" class="button share-wa" attr-permalink="http://www.reactive-web.com/blog/introduccion-a-docker/"></div>
+                            <div onClick="TeShare(this)" class="button share-t" attr-permalink="http://www.reactive-web.com/blog/introduccion-a-docker/"></div>
+                        </div>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <br />
+                        <br />
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                    <div id="banner-inverted" class="no-padding">
+                        <div class="left">
+                            <h2>¿POR QUÉ NOSOTROS?</h2>
+                            <div class="content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </div>
+                            <a href="#" class="call-to-action">CONTACTANOS</a>
+                        </div>
+                        <div class="right">
+                            <img class="img-cover" src="https://via.placeholder.com/300x450/777/">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footer-wrapper">
+                <div class="container">
+                    <div class="left section">
+                        <a href="#" class="link">INICIO</a>
+                        <a href="#" class="link">SERVICIOS</a>
+                        <a href="#" class="link">BLOG</a>
+                        <a href="#" class="link">CONTACTO</a>
+                    </div>
+                    <div class="mid section">
+                        <a href="#" class="link logo">
+                            <img src="assets/onhati-logo.png">
+                        </a>
+                    </div>
+                    <div class="right section">
+                        <a href="#" class="link">MARCO LEGAL</a>
+                        <a href="#" class="link">TERMINOS Y CONDICIONES</a>
+                        <a href="#" class="link">AVISO DE PRIVACIDAD</a>
+                    </div>
+                </div>
+                <div id="call-us" class="container">
+                    <h4>COMINÍCATE</h4>
+                    <a href="tel:4431049977" class="phone">443-1049977</a>
+                </div>
+            </div>
+        </div>
+        <script src="js/global.js"></script>
+        <script src="js/share-this.js"></script>
+    </body>
+</html>
