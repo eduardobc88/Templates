@@ -1,0 +1,224 @@
+#page-head {
+    max-height: 400px;
+}
+
+#page-head .container-fluid {
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    padding: 0px;
+}
+
+#page-thumbnail {
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin: auto;
+}
+
+#page-title {
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    margin: auto;
+    max-width: 1280px;
+    padding: 20px;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    z-index: 1;
+    text-align: center;
+}
+
+
+
+
+
+#page-content {
+    padding: 60px 100px 60px 100px;
+    position: relative;
+}
+
+#share {
+    position: absolute;
+    top: -25px;
+    display: flex;
+    z-index: 1;
+    right: 10px;
+}
+
+#share .button {
+    background-image: url(../assets/social-icons.png);
+    cursor: pointer;
+    height: 50px;
+    margin-left: 4px;
+    margin-right: 4px;
+    width: 53px;
+}
+
+#share .share-fb {
+    background-position: -1px;
+}
+
+#share .share-tw {
+    background-position: -104px;
+}
+
+#share .share-wa {
+    background-position: -155px;
+}
+
+#share  .share-t {
+    background-position: -208px;
+}
+
+
+
+
+
+
+h2 {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.general-content {
+    padding: 0px 100px 60px 100px;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+.grid-title {
+    text-align: center;
+}
+
+.grid {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 0px 50px 0px;
+}
+
+.grid .background {
+    background-color: #444;
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    align-self: center;
+}
+
+.grid .item {
+    position: relative;
+    margin: 20px;
+    height: 200px;
+    width: 200px;
+    border: 1px solid transparent;
+    display: flex;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.grid .bkg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition-duration: 100ms;
+}
+
+.grid .photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+}
+
+.grid .name {
+    position: relative;
+    align-self: center;
+    margin: auto;
+    z-index: 2;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 500;
+}
+
+.grid .item:hover .bkg {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.grid .item:hover .name {
+    opacity: 0;
+}
+
+.grid .item:hover {
+    border: 1px solid #444;
+}
+
+
+
+
+
+
+@media all and (max-width: 980px) {
+    .grid .background {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 1000px) {
+    #page-thumbnail {
+        width: calc(100% + 800px);
+        bottom: 0;
+        position: absolute;
+        top: 0;
+        left: -150%;
+        right: -150%;
+        margin: auto;
+    }
+
+    #page-title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    #page-content {
+        padding: 60px 30px 60px 30px;
+    }
+
+    .general-content {
+        padding: 0px 30px 60px 30px;
+    }
+}
